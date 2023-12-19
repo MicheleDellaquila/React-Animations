@@ -1,0 +1,12 @@
+.TotalUsers {
+  padding: 4px 10px;
+  background-color: #7ab668;
+  border-radius: 16px;
+}
+
+.TotalUsers__text {
+  margin: 0;
+  line-height: 1;
+  font-weight: bold;
+  color: #ffffff;
+}
