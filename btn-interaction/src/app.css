@@ -1,0 +1,41 @@
+.App {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.App__button {
+  display: flex;
+  align-items: center;
+  column-gap: 20px;
+  padding: 16px 32px;
+  appearance: none;
+  outline: none;
+  background-color: #fff;
+  border: 1px solid #dadada;
+  border-radius: 32px;
+  color: #e80226;
+  font-size: 20px;
+  white-space: nowrap;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.App__button-box {
+  position: relative;
+  width: 32px;
+  height: 32px;
+}
+
+.App__box-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+}
+
+.App__box-icon > svg {
+  font-size: 24px;
+}
