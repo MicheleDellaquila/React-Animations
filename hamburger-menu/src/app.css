@@ -1,0 +1,18 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.App__box {
+  height: calc(100vh - 73px);
+  padding: 36px 16px;
+  background: #31558a;
+}
+
+.App__box > .Content:nth-child(4) {
+  margin-bottom: 0;
+}

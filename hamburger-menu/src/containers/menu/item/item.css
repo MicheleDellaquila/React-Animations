@@ -1,0 +1,9 @@
+.Item {
+  font-size: 21px;
+  color: #4a89dc;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 3px;
+  text-align: center;
+  opacity: 0;
+}

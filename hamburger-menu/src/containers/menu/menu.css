@@ -1,0 +1,41 @@
+.Menu {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 0;
+  background-color: #ffffff;
+  clip-path: circle(0% at 16px 0);
+  transition: all 300ms ease-in-out;
+  z-index: 0;
+}
+
+.expanded {
+  width: 100vw;
+  height: 100vh;
+  clip-path: circle(100%);
+}
+
+.Menu__list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 64px 36px;
+  row-gap: 48px;
+  list-style: none;
+}
+
+.expanded > .Menu__list > .Item {
+  animation: enter 300ms ease-in forwards;
+  animation-delay: var(--i) * 350ms;
+}
+
+@keyframes enter {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
